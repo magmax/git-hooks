@@ -22,7 +22,7 @@ repos:
     -   id: ensure-jira-issue
         args:
           - .git/COMMIT_EDITMSG
-          - DVOP (<JIRA_PROJECT_KEY>: In the example DVOP)
+          - DVOP ## <JIRA_PROJECT_KEY>: In the example DVOP. You can use more than one issuekey (ISSUEKEY1|ISSUEKEY2)
 ```
 Execute next command
 
@@ -43,7 +43,7 @@ repos:
     -   id: ensure-jira-issue
         args:
           - .git/COMMIT_EDITMSG
-          - DVOP (<JIRA_PROJECT_KEY>: In the example DVOP)
+          - DVOP ##<JIRA_PROJECT_KEY>: In the example DVOP. You can use more than one issuekey (ISSUEKEY1|ISSUEKEY2)
 ```
 Use init-templatedir config of Git:
 
