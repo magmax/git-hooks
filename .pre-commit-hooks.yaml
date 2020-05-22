@@ -1,0 +1,7 @@
+-   id: ensure-jira-issue
+    name: Ensure jira issue in commit message
+    entry: ensure-jira-issue
+    language: python
+    always_run: true
+    stages: [commit-msg]
+
